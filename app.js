@@ -100,7 +100,7 @@ async.series([
           });
         }
       });
-      callback(null, e);
+      //callback(null, e);
     },
     function(callback) {
       callback(null, 'two');
